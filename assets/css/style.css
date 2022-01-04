@@ -1,0 +1,98 @@
+/* style sheet for portfolio */
+
+:root {
+    --Space-Crayola: #283D3B;
+    --Skobeloff: #197278;
+    --Champagne: #EDDDD4;
+    --Redwood: #C44536;
+    --Burnt Umber: #772E25;
+  }
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    color: var(--Champagne);
+    text-decoration: underline;
+}
+
+header {
+    padding: 2rem 0 2rem 0;
+    background-color: var(--Space-Crayola);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--Champagne);
+    height: 10rem;
+
+}
+
+h1 {
+    width: 25%;
+    min-width: 250px;
+    display: inline-block;
+    background-color: var(--Redwood);
+    text-align: center;
+    height: 6rem;
+    font-size: 3.5rem;
+    padding-top: 1.25rem;
+}
+
+header nav {
+    padding-right: 2rem;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--Champagne);
+    font-size: 2.5rem;
+    text-align: end;
+    
+
+}
+
+header nav ul {
+    display: inline-block;
+    height: 6rem;
+
+}
+
+header nav ul li {
+    color: var(--Champagne);
+    padding: 0 1.5rem 0 1.5rem;
+    text-align: center;
+    padding-top: 3rem;
+
+    
+}
+
+body div h2 {
+    float: right;
+    font-size: 2.5rem;
+    color: var(--Champagne);
+    background-color: var(--Redwood);
+    padding: 1rem;
+    margin: 22rem 4rem 3rem 3rem;
+    
+
+}
+
+/* class selectors */
+
+.hero {
+    height: 30rem;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/heroimg.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
